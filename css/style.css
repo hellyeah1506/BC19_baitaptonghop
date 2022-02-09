@@ -696,7 +696,7 @@ header.sticky{
   background-color: var(--test-color);
   position: relative;
   padding: 75px;
-  height: 75vh;
+  min-height: 50vh;
 }
 .testimonials__text{
     margin: 15px 0;
@@ -767,6 +767,7 @@ header.sticky{
     border-radius: 6px;
     margin-left: 15px;
     background-color: var(--primary-color);
+    
 }
 .bottom__text{
     margin-top: 8px;
