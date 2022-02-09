@@ -31,7 +31,7 @@ document.getElementById("switchButton").onclick = function () {
   });
   var swiper = new Swiper(".mySwiper__testimonials", {
     slidesPerView: 2,
-    spaceBetween: 30,
+    spaceBetween: 20,
     freeMode: true,
     pagination: {
       el: ".swiper-pagination",
