@@ -756,7 +756,7 @@ header.sticky{
 #testimonials .swiper-pagination-bullet{
     height: 8px;
     width: 8px;
-    margin-left: 25px;
+    margin-left: 15px;
     background-color: rgba(82, 76, 76, 0.452);
     opacity: 1.5;
     transition: all .1s;
