@@ -95,6 +95,9 @@ header.sticky{
   width: 100%;
   margin: auto;
 }
+#header__menu .navbar{
+  transition: all .5s;
+}
 #header__menu .navbar-brand {
   font-size: 34px;
   font-weight: 600;
