@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Table_background .tab-panel {
+    position: relative;
+    left: 20%;
+    margin-right: 33%;
+}
+
+.Table_background i {
+    font-size: 30px;
+    color: #189a46;
+    padding: 20px;
+}
+
+.Table_background .tab-panel {
+    padding-top: 100px;
+}
+
+.card-body .card-body-title {
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 2px #189a46;
+    color: black;
+    padding: 4px;
+}
+
+.row .card-body .h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.row p {
+    font-size: 19px;
+}
+
+.card.animate__animated.animate__zoomIn {
+    position: relative;
+    width: 390px;
+    height: 350px;
+}
+
+.col-4 .card {
+    width: 390px;
+    height: 350px;
+    border-style: none;
+}
+
+.col-4 .card:hover {
+    border-style: none;
+    background-color: #92919121;
+    transition: all .5s;
+}
+
+.row .card-body .h3:hover {
+    color: #189a46;
+    transition: all .5s;
+}
+
+.card-body a:hover {
+    color: #189a46;
+    transition: all .5s;
+}
+
+
+/* RESPONSIVE LAPTOP */
+
+
+/* @media screen and (max-width:1440px) {
+    .Table_background .tab-panel {
+        position: relative;
+        left: 6%;
+        margin-right: 10%;
+    }
+    .row p {
+        font-size: 15px;
+    }
+}
+
+
+/* RESPONSIVE TABLE */
+
+
+/* @media screen and (max-width:1024px) {
+    .Table_background .tab-panel {
+        position: relative;
+        left: 6%;
+        margin-right: 10%;
+    }
+    .Table_background .row {
+        width: 100%;
+    }
+    .row p {
+        font-size: 15px;
+        width: 75%;
+    }
+} */
+
+*/
