@@ -1,0 +1,92 @@
+    /* GOLBAL */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        font-family: 'Jost', sans-serif;
+    }
+    /* NUMBER */
+    
+    .number {
+        background-color: #189A46;
+        padding: 70px 0;
+    }
+    
+    .number__content {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .number__item .counter {
+        font-weight: 700;
+    }
+    
+    .number__item p:first-of-type {
+        font-size: 60px;
+        color: white;
+    }
+    
+    .number__item p:last-of-type {
+        font-size: 20px;
+        color: white;
+    }
+    /* RESPONSIVE LAPTOP */
+    
+    @media screen and (max-width:1024px) {
+        .number__content {
+            width: 60%;
+        }
+    }
+    /* RESPONSIVE TABLE */
+    
+    @media screen and (max-width:768px) {
+        .number__content {
+            width: 75%;
+        }
+        .number__item p:first-of-type {
+            font-size: 50px;
+            color: white;
+        }
+        .number__item p:last-of-type {
+            font-size: 15px;
+            color: white;
+        }
+    }
+    /* RESPONSIVE MOBILE */
+    
+    @media screen and (max-width:425px) {
+        .number__content {
+            width: 75%;
+        }
+        .number__item p:first-of-type {
+            font-size: 40px;
+            color: white;
+        }
+        .number__item p:last-of-type {
+            font-size: 10px;
+            color: white;
+        }
+    }
+    
+    @media screen and (max-width:320px) {
+        .number__content {
+            width: 75%;
+        }
+        .number__item p:first-of-type {
+            font-size: 30px;
+            color: white;
+        }
+        .number__item p:last-of-type {
+            font-size: 8px;
+            color: white;
+        }
+    }
