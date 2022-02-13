@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Update__text {
+    position: relative;
+    left: 25%;
+}
+
+.Update__text h3 {
+    position: relative;
+    left: 25%;
+    font-size: 30px;
+}
+
+.Update__text p {
+    position: relative;
+    left: 15%;
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.contact {
+    position: relative;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+}
+
+.contact__input {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.contact__email {
+    position: relative;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.contact__subscribe {
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #189A46;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+}
+
+.contact__subscribe:hover {
+    background-color: green;
+    transition: all .5s;
+}
+
+
+/* Dành cho điện thoại */
+
+@media screen and (max-width:1024px) {
+    .Update {
+        position: relative;
+        left: 5%;
+    }
+    .Update__text {
+        position: relative;
+        left: 10%;
+    }
+    .Update__text p {
+        position: relative;
+        left: 10%;
+        width: 50%;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 19px;
+    }
+    .contact {
+        position: relative;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Update__text p {
+        font-size: 15px;
+    }
+    .contact {
+        position: relative;
+        left: 20%;
+    }
+    .contact__email {
+        position: relative;
+        width: 25%;
+        height: 48px;
+        margin-left: 20px;
+    }
+    .contact__subscribe {
+        width: 80px;
+        height: 48px;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .contact {
+        position: relative;
+        left: 0%;
+    }
+    .Update__text {
+        position: relative;
+        width: 100%;
+        left: 0%;
+    }
+    .Update__text p {
+        width: 75%;
+        font-size: 12px;
+    }
+    .Update__text h3 {
+        padding-top: 20px;
+        font-size: 28px;
+    }
+    .contact__input {
+        position: relative;
+        left: 5%;
+        width: 100%;
+    }
+    .contact__email {
+        position: relative;
+        left: 5%;
+        width: 35%;
+        height: 40px;
+    }
+    .contact__subscribe {
+        width: 80px;
+        height: 40px;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .Update {
+        position: relative;
+        left: 0%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .Update__text h3 {
+        font-size: 25px;
+    }
+    .contact__input {
+        width: 100%;
+    }
+    .contact__email {
+        position: relative;
+        width: 38%;
+        height: 38px;
+        left: 0%;
+    }
+    .contact__subscribe {
+        width: 80px;
+        height: 38px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
