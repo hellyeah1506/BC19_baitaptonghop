@@ -267,6 +267,9 @@ header.sticky{
   line-height: 28px;
   margin-right: 10px;
 }
+#carousel__slider .btn-outline-light{
+  transition: all .5s;
+}
 /* about */
 #about {
   background-color: var(--bg-color);
@@ -1295,6 +1298,89 @@ button::-moz-focus-inner {
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}@media all and (min-width: 400px){
+  #services .card-title{
+    font-size: 8px;
+  }
+}
+@media all and (max-width: 320px){
+  #about, #content,#plans,#updated,#testimonials{
+    padding: 0;
+  }
+  #services{
+    padding: 30px 0;
+  }
+  #about .about__text{
+    max-width: 100%;
+  }
+  #plans .plans__contenttext{
+    padding: 15px 0;
+  }
+  #pop__video .video__content{
+    padding: 0;
+  }
+}
+@media all and (max-width: 480px){
+  #about,#content,#plans,#updated,#testimonials{
+    padding: 0;
+  }
+  #services{
+    padding: 30px 0;
+  }
+  #about .about__text{
+    max-width: 100%;
+  }
+  #plans .plans__contenttext{
+    padding: 15px 0;
+  }
+  #pop__video{
+    padding: 50px;
+  }
+  #pop__video .video__content{
+    padding: 50px 0;
+  }
+}
+@media all and (max-width: 568px){
+  #pop__video .play__btn{
+    position: absolute;
+    top: 47%;
+    left: 37%;
+  }
+}
+@media all and (max-width: 320px){
+  #pop__video .play__btn{
+    position: absolute;
+    top: 33%;
+    left: 40%;
+  }
+}
+@media all and (max-width: 480px){
+  #pop__video .play__btn{
+    position: absolute;
+    top: 33%;
+    left: 40%;
+  }
+}
+@media all and (max-width: 569px){
+  #pop__video .play__btn{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+  }
+}
+@media all and (max-width: 780px){
+  #about, #services, #content,#plans{
+    padding: 0;
+  }
+  #plans .plans__contenttext{
+    padding: 15px 0;
+  }
+  #pop__video{
+    padding: 50px;
+  }
+  #pop__video .video__content{
+    padding: 50px 0;
+  }
 }
 @media all and (min-width: 1200px) {
   #plans .plans__card.active
@@ -1338,34 +1424,12 @@ button::-moz-focus-inner {
     top: calc(60% - 28px);
   }
 }
-@media all and (max-width: 850px){
-  #pop__video .play__btn{
-    position: absolute;
-    top: 33%;
-    left: 40%;
-  }
-}
-@media all and (max-width: 720px){
-  #pop__video .play__btn{
-    position: absolute;
-    top: 33%;
-    left: 40%;
-  }
-}
 @media all and (max-width: 667px){
-  #pop__video .play__btn{
-    position: absolute;
-    top: 25%;
-    left: 40%;
+  #pop__video{
+    padding: 0;
   }
 }
-@media all and (max-width: 568px){
-  #pop__video .play__btn{
-    position: absolute;
-    top: 10%;
-    left: 40%;
-  }
-}
+
 @media all and (max-width: 667px){
   #pop__video .play__btn a{
     padding: 5px 9px;
@@ -1388,6 +1452,7 @@ button::-moz-focus-inner {
     max-width: 445px;
   }
 }
+
 @media all and (max-width: 414px) {
   #small-dialog,
   #small-dialog1 {
